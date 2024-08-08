@@ -1,9 +1,10 @@
 import React from 'react';
+import './page.scss';
 
 const Page = () => {
     return (
-        <div>
-            I am home 
+        <div className='home-wrpper'>
+            I am home
         </div>
     );
 }
