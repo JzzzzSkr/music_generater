@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="right">
         <ul className="nav-list">
           <li className="nav-item one">Home</li>
-          <li className="nav-item two ">Generater</li>
+          <li className="nav-item two ">Generator</li>
           <li className="nav-item three ">About me</li>
         </ul>
       </div>

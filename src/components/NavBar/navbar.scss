@@ -29,6 +29,8 @@
       }
 
       .name {
+        // 字体加粗
+        font-weight: 700;
         font-size: 18px;
       }
     }
@@ -41,12 +43,12 @@
 
   .middle {
     flex: 4;
-    background-color: aqua;
+    // background-color: aqua;
   }
 
   .right {
-    flex: 3;
-    background-color: yellow;
+    flex: 3.5;
+    // background-color: yellow;
 
     .nav-list {
       width: 100%;
@@ -62,18 +64,12 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-      }
+        color: #4d5562;
+        transition: color 0.4s ease, background-color 0.3s ease;
 
-      .one {
-        background-color: white;
-      }
-
-      .two {
-        background-color: aquamarine;
-      }
-      
-      .three {
-        background-color: antiquewhite;
+        &:hover {
+          color: #000000;
+        }
       }
     }
   }
