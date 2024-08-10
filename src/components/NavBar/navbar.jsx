@@ -12,8 +12,14 @@ const Navbar = () => {
           <span className="name">JzzzzSkr</span>
         </div>
       </a>
-      <div className="middle">2</div>
-      <div className="right">3</div>
+      <div className="middle"></div>
+      <div className="right">
+        <ul className="nav-list">
+          <li className="nav-item one">Home</li>
+          <li className="nav-item two ">Generater</li>
+          <li className="nav-item three ">About me</li>
+        </ul>
+      </div>
     </div>
   );
 };

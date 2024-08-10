@@ -95,6 +95,7 @@ body {
     rgb(var(--background-start-rgb)); */
     color: black;
     background-color: white;
+    font-size: 17px;
 }
 
 a {
@@ -108,3 +109,39 @@ a {
   }
 }
 
+/* ul li 去除默认样式 */
+ul {
+  list-style: none;
+}
+
+/* 去除input默认样式 */
+input {
+  outline: none;
+  border: none;
+}
+
+/* 去除button默认样式 */
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* 去除select默认样式 */
+select {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* 去除textarea默认样式 */
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* 去除checkbox默认样式 */
+input[type="checkbox"] {
+  
+}

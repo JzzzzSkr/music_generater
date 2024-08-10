@@ -1,6 +1,6 @@
 .navbar-wrappter {
   height: 4em;
-  background-color: antiquewhite;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,7 +10,7 @@
 
   .left {
     flex: 1.5;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
 
     display: flex;
     justify-content: center;
@@ -37,13 +37,6 @@
       flex: 3;
       background-color: aqua;
     }
-
-    .right {
-      flex: 1.5;
-      background-color: yellow;
-
-      background-color: aqua;
-    }
   }
 
   .middle {
@@ -52,7 +45,36 @@
   }
 
   .right {
-    flex: 2;
+    flex: 3;
     background-color: yellow;
+
+    .nav-list {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      //   background-color: antiquewhite;
+
+      .nav-item {
+        flex: 1;
+        // background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .one {
+        background-color: white;
+      }
+
+      .two {
+        background-color: aquamarine;
+      }
+      
+      .three {
+        background-color: antiquewhite;
+      }
+    }
   }
 }
