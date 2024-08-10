@@ -1,3 +1,58 @@
-.navbar-wrappter{
-    background-color: azure;
+.navbar-wrappter {
+  height: 4em;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  display: flex;
+
+  .left {
+    flex: 1.5;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      //   background-color: aqua;
+
+      .icon {
+        margin-right: 5px;
+        font-size: 2.5em;
+      }
+
+      .name {
+        font-size: 18px;
+      }
+    }
+
+    .center {
+      flex: 3;
+      background-color: aqua;
+    }
+
+    .right {
+      flex: 1.5;
+      background-color: yellow;
+
+      background-color: aqua;
+    }
+  }
+
+  .middle {
+    flex: 4;
+    background-color: aqua;
+  }
+
+  .right {
+    flex: 2;
+    background-color: yellow;
+  }
 }
