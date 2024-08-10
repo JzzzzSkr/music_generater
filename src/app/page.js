@@ -3,7 +3,7 @@ import './page.scss';
 
 const Page = () => {
     return (
-        <div className='home-wrpper'>
+        <div className='container home-wrpper'>
             I am home
         </div>
     );
