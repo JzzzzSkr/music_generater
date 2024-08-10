@@ -1,5 +1,5 @@
 // src/app/layout.js
-import { Roboto } from "next/font/google";
+import { Asap_Condensed, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/NavBar/navbar";
 import Footer from "@/components/Footer/footer";
