@@ -1,3 +1,36 @@
 .banner-wrapper {
-  background-color: antiquewhite;
+  height: 450px;
+  // background-color: antiquewhite;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .up {
+    margin-top: 100px;
+
+    h3 {
+      width: 57%;
+      margin: 0 auto;
+      font-size: 3.75rem;
+      line-height: 1;
+      text-align: center;
+    }
+  }
+
+  .middle {
+    margin-top: 30px;
+    width: 370px;
+
+    p {
+      color: #6e747f;
+      text-align: center;
+    }
+  }
+
+  .done{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
 }
