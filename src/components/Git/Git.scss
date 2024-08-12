@@ -31,10 +31,15 @@
     justify-content: center;
     align-items: center;
     // font-size: 1em;
+    transition: all 0.3s ease-in-out;
 
     span {
       margin-left: 0.5em;
       font-size: 13px;
+    }
+
+    &:hover {
+      background-color: #6e747f;
     }
   }
 }
