@@ -1,8 +1,13 @@
+"use client";
+
 import React from "react";
 import "./Banner.scss";
 import { Button } from "@mui/material";
+import { useRouter } from "next/navigation";
 
 const Banner = () => {
+  const router = useRouter();
+
   return (
     <div className="banner-wrapper">
       <div className="up">
@@ -15,8 +20,12 @@ const Banner = () => {
         </p>
       </div>
       <div className="done">
-        <Button>Generate your music</Button>
-        <Button>Learn more</Button>
+        <Button onClick={() => router.push("/generator")}>
+          Generate your music
+        </Button>
+        <Button href="https://github.com/JzzzzSkr/music_generater">
+          Learn more
+        </Button>
       </div>
     </div>
   );
