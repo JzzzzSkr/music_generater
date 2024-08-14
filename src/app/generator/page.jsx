@@ -1,9 +1,15 @@
 import React from "react";
-import './page.scss'
+import "./page.scss";
 
 const generator = () => {
-  return <div className="generator-wrapper">I am generator.</div>;
-  
+  return (
+    <div className="generator-wrapper">
+      <div className="left">
+        
+      </div>
+      <div className="right">2</div>
+    </div>
+  );
 };
 
 export default generator;
